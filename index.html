@@ -1,93 +1,208 @@
-<!doctype html>
-<html>
-    <head>
-       <style type="text/css">
-        *{
-            text-decoration: none;
-        }
-        .navbar{
-            background: crimson; font-family: calibri;  padding-right: 15px; padding-left: 15px;
-            
-            height: 120px;
-            
-        }
-        .navdiv{
-            display: flex; align-items: center; justify-content:space-between;
-        }
-        .logo a{
-            font-size: 40px; font-weight: 600; color: white; 
-        }
-        li{
-            list-style: none; display: inline-block;
-        }
-        li a{
-            color: black; font-size: 15px; font-weight: bold; margin-right: 25px;
-        }
-        
-        </style>   
-    </head>
-    <body style=" background : rgb(107, 95, 128);" >
-        <nav class="navbar">
-<div class="navdiv">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EINBRAINTON Links</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      text-decoration: none;
+    }
+
+    body {
+      background: linear-gradient(135deg, #6b5f80, #3b2f50);
+      color: white;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: crimson;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 50px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar .logo a {
+      font-size: 35px;
+      font-weight: 700;
+      color: white;
+      letter-spacing: 1px;
+    }
+
+    .navbar ul {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      list-style: none;
+    }
+
+    .navbar ul li a {
+      color: white;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      background: white;
+      color: crimson;
+    }
+
+    /* Gallery Section */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 60px;
+      justify-items: center;
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .box:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .box img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: crimson;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
     <div class="logo"><a href="#">EINBRAINTON</a></div>
-<ul>
-    <li>
-        <button ><a href="#">Home</a></button>
-        <button ><a href="tel: 01792108310">Contact</a></button>
-    </li>
-</ul>
-</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="tel:01792108310">Contact</a></li>
+    </ul>
+  </nav>
 
-    </nav>
-        <br>
-        <center><a href="https://www.daraz.com.bd/#?"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30cyVgEb2Pnzc13mDojm4HF_XVyXovIuNow&s" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.rokomari.com/book"><img src="https://www.tbsnews.net/sites/default/files/styles/author/public/organization/logo/rokomari.png" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://evaly.com.bd/"><img src="https://futurestartup.com/wp-content/uploads/2018/12/Evaly-logo-01.jpg" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://chaldal.com/?srsltid=AfmBOoqK_iHTFGPLs6wH_PZdBlLNP5E9LKubYDWJj0CgK_zjX8FWvCKk"><img src="https://www.tbsnews.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/organization/logo/chaldaldotcom.jpg" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.banglashoppers.com/"><img src="https://play-lh.googleusercontent.com/5n7I7ziIFN_yDbZRd_ufhTez8eX2Est2-ebjllhqFaY9eJRku-6UKSlyqvd_KUUnwKg" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://priyoshopretail.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDodOd-IzxQIn42Rv5hHSo_bVDS13CapoyWg&s" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.ajkerdeal.com/"><img src="https://static.ajkerdeal.com/images/site-images/mdealdetails/logo.png" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.pickaboo.com/?srsltid=AfmBOopNkCvMpevuKvFTpdVkvcshkKVo4wF_XZHc47Zh4xLTisZbTCMW"><img src="https://www.pickaboo.com/blog/wp-content/uploads/2023/11/Pickaboo-1024x538.jpg" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.othoba.com/?srsltid=AfmBOoqz4UahYsGXqBmEufx6iw_xJ-fKtn5u03-db6lpgxXFJLF4z8NQ"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVsdpflewl-QIjkIjZVDkGZgZYFO1Kohglew&s" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://bikroy.com/"><img src="https://play-lh.googleusercontent.com/OFqkNw9ns70116-WgXWbg1AJAPEkAyCnnWl_jGLZoH5zL52zuQQtIqx8sOY22mIUzg=w416-h235-rw" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.foodpanda.com.bd/?utm_source=google&utm_medium=cpc&utm_campaign=16391559109&sem_tracker=16391559109&gad_source=1&gclid=CjwKCAiA65m7BhAwEiwAAgu4JAQAXgq7w0fFPNQ7nzMG1nsoFABk5wp38WIob84El94Vd0gyIgWTJBoCJbUQAvD_BwE"><img src="https://careers.foodpanda.com/assets/file/4e17ade0-23be-4a1f-83b5-08dc390d0e29/foodpanda%20logo.jpg" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.clickbd.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPwEuDaR-SU76O3EMGlPLwf4CVjSSzA7sO9g&s" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://shop.shajgoj.com/?gad_source=1&gclid=CjwKCAiA65m7BhAwEiwAAgu4JIbOi4Vu82rzqbet1Ms3cnAjyMbxrzv3LzQXijMxDjGElBFWwFFiFBoCzt0QAvD_BwE"><img src="https://play-lh.googleusercontent.com/soqICjWGA_5488HSGjhShRFJTOdXY55BF3pJiFvpHz4gNAPuR_dLvW3PdYgNbArfbj0" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.shwapno.com/?srsltid=AfmBOorPn5snyUrhg9vmwsNrVLlXjX4llVbI6ypue6Ot99DFAqDKyJ7I"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcH4hNgQQA7kTobqtWw6yAEbe-xBcdyhE7Rw&s" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://sindabad.com/?srsltid=AfmBOopWdNxCB8reETjWHPTH-53KeO6r4RpSqmZS3E5uFuu-vVsuGwKQ"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNGW67JDAxgKtgQQmJfETU_bj74_SxcqoPw&s" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.khaasfood.com/?srsltid=AfmBOop-wwQH8Of97Orx9nFv7Wg0oIvi0OPkP5PXrPuNJzN17FrbJ3ma"><img src="https://media.licdn.com/dms/image/v2/C4D0BAQGZvMiyMdxYfw/company-logo_200_200/company-logo_200_200/0/1645204773517?e=2147483647&v=beta&t=SU49mEGYH7qgEmsnJPiaSvjJnlvreRvEjXGm7UjykFI" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.sheba.xyz/"><img src="https://play-lh.googleusercontent.com/gB3i4Og8M4qsrjRg9P67MZoNsO0Q1P7DCEzkUqlNz-uL1E_Y1minQ_X_G0hd2xu1" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.startech.com.bd/?srsltid=AfmBOoovm2Y_E968AGgbyzYac4lsXIVzwvky5nz8qMo3p8n1SS2qA0Gk"><img src="https://media.licdn.com/dms/image/v2/C510BAQGmDog0rPjQHw/company-logo_200_200/company-logo_200_200/0/1631301971843?e=2147483647&v=beta&t=tSoiqPIg42axnQ4_4DYHQOH4jbA8YQfB-dNGLRneAgQ" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.applegadgetsbd.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXdpjD9RwVCMpAzTvF4yeSbzxC2SyCvXOTgziDjCRri87-8EJ98WvLzY&s=10" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.mobiledokan.co/"><img src="https://play-lh.googleusercontent.com/mbUJrH7MFHtld4hqzg-MoaHjp9DsDyeqgvuKm2n2IW9n5HRdGKsNUtpLD7tskMYHYg" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://www.mobiledokan.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3zZC-0uYUCXC-TT_22qXfgNR2c6dIkkLN0PFkibPir7aAE0PUTfvdgMKC&s=10" width="300px" height="300px"></a><br></center>
-        <br>
-        <center><a href="https://fabrilife.com/shop?gad_source=1&gclid=CjwKCAiA65m7BhAwEiwAAgu4JOrFyQVTYgQYeZ9NC1EEIv2u6qPSRHe_L2OOmko37zJ35gMrN3FaxxoChUIQAvD_BwE"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/fc0339174536769.64a43e9e466c2.png" width="300px" height="300px"></a><br></center>
-        <br>
-        
+  <!-- Gallery Section -->
+  <div class="container">
 
-        
-        </body>
-        </html>
- 
+    <a href="https://www.daraz.com.bd/#?" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30cyVgEb2Pnzc13mDojm4HF_XVyXovIuNow&s" height="300px" width="300px" alt="Daraz">
+    </a>
 
+    <a href="https://www.rokomari.com/book" class="box">
+      <img src="https://www.tbsnews.net/sites/default/files/styles/author/public/organization/logo/rokomari.png"  height="300px" width="300px" alt="Rokomari">
+    </a>
+
+    <a href="https://evaly.com.bd/" class="box">
+      <img src="https://futurestartup.com/wp-content/uploads/2018/12/Evaly-logo-01.jpg"height="300px" width="300px"  alt="Evaly">
+    </a>
+
+    <a href="https://chaldal.com/" class="box">
+      <img src="https://www.tbsnews.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/organization/logo/chaldaldotcom.jpg" height="300px" width="300px"  alt="Chaldal">
+    </a>
+
+    <a href="https://www.banglashoppers.com/" class="box">
+      <img src="https://play-lh.googleusercontent.com/5n7I7ziIFN_yDbZRd_ufhTez8eX2Est2-ebjllhqFaY9eJRku-6UKSlyqvd_KUUnwKg" height="300px" width="300px" alt="Bangla Shoppers">
+    </a>
+
+    <a href="https://priyoshopretail.com/" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDodOd-IzxQIn42Rv5hHSo_bVDS13CapoyWg&s" height="300px" width="300px" alt="Priyoshop">
+    </a>
+
+    <a href="https://www.ajkerdeal.com/" class="box">
+      <img src="https://static.ajkerdeal.com/images/site-images/mdealdetails/logo.png" height="300px" width="300px"  alt="AjkerDeal">
+    </a>
+
+    <a href="https://www.pickaboo.com/" class="box">
+      <img src="https://www.pickaboo.com/blog/wp-content/uploads/2023/11/Pickaboo-1024x538.jpg" height="300px" width="300px"  alt="Pickaboo">
+    </a>
+
+    <a href="https://www.othoba.com/" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVsdpflewl-QIjkIjZVDkGZgZYFO1Kohglew&s" height="300px" width="300px" alt="Othoba">
+    </a>
+
+    <a href="https://bikroy.com/" class="box">
+      <img src="https://play-lh.googleusercontent.com/OFqkNw9ns70116-WgXWbg1AJAPEkAyCnnWl_jGLZoH5zL52zuQQtIqx8sOY22mIUzg=w416-h235-rw" height="300px" width="300px" alt="Bikroy">
+    </a>
+
+    <a href="https://www.foodpanda.com.bd/?utm_source=google&utm_medium=cpc&utm_campaign=16391559109&sem_tracker=16391559109&gad_source=1&gclid=CjwKCAiA65m7BhAwEiwAAgu4JAQAXgq7w0fFPNQ7nzMG1nsoFABk5wp38WIob84El94Vd0gyIgWTJBoCJbUQAvD_BwE" class="box">
+      <img src="https://careers.foodpanda.com/assets/file/4e17ade0-23be-4a1f-83b5-08dc390d0e29/foodpanda%20logo.jpg" height="300px" width="300px"  alt="Food Panda">
+    </a>
+
+    <a href="https://www.clickbd.com/" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPwEuDaR-SU76O3EMGlPLwf4CVjSSzA7sO9g&s" height="300px" width="300px"  alt="Click">
+    </a>
+
+    <a href="https://shop.shajgoj.com/?gad_source=1&gclid=CjwKCAiA65m7BhAwEiwAAgu4JIbOi4Vu82rzqbet1Ms3cnAjyMbxrzv3LzQXijMxDjGElBFWwFFiFBoCzt0QAvD_BwE" class="box">
+      <img src="https://play-lh.googleusercontent.com/soqICjWGA_5488HSGjhShRFJTOdXY55BF3pJiFvpHz4gNAPuR_dLvW3PdYgNbArfbj0" height="300px" width="300px"  alt="Shahoj">
+    </a>
+
+    <a href="https://www.shwapno.com/?srsltid=AfmBOorPn5snyUrhg9vmwsNrVLlXjX4llVbI6ypue6Ot99DFAqDKyJ7I" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcH4hNgQQA7kTobqtWw6yAEbe-xBcdyhE7Rw&s" height="300px" width="300px"  alt="swapno">
+    </a>
+
+    <a href="https://sindabad.com/?srsltid=AfmBOopWdNxCB8reETjWHPTH-53KeO6r4RpSqmZS3E5uFuu-vVsuGwKQ" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNGW67JDAxgKtgQQmJfETU_bj74_SxcqoPw&s" height="300px" width="300px"  alt="sindabad">
+    </a>
+
+    <a href="https://www.khaasfood.com/?srsltid=AfmBOop-wwQH8Of97Orx9nFv7Wg0oIvi0OPkP5PXrPuNJzN17FrbJ3ma" class="box">
+      <img src="https://media.licdn.com/dms/image/v2/C4D0BAQGZvMiyMdxYfw/company-logo_200_200/company-logo_200_200/0/1645204773517?e=2147483647&v=beta&t=SU49mEGYH7qgEmsnJPiaSvjJnlvreRvEjXGm7UjykFI" height="300px" width="300px" alt="khaasfood">
+    </a>
+
+     <a href="https://www.sheba.xyz/" class="box">
+      <img src="https://play-lh.googleusercontent.com/gB3i4Og8M4qsrjRg9P67MZoNsO0Q1P7DCEzkUqlNz-uL1E_Y1minQ_X_G0hd2xu1" height="300px" width="300px" alt="sheba">
+    </a>
+
+    <a href="https://www.startech.com.bd/?srsltid=AfmBOoovm2Y_E968AGgbyzYac4lsXIVzwvky5nz8qMo3p8n1SS2qA0Gk" class="box">
+      <img src="https://media.licdn.com/dms/image/v2/C510BAQGmDog0rPjQHw/company-logo_200_200/company-logo_200_200/0/1631301971843?e=2147483647&v=beta&t=tSoiqPIg42axnQ4_4DYHQOH4jbA8YQfB-dNGLRneAgQ" height="300px" width="300px" alt="startech">
+    </a>
+
+    <a href="https://www.applegadgetsbd.com/" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXdpjD9RwVCMpAzTvF4yeSbzxC2SyCvXOTgziDjCRri87-8EJ98WvLzY&s=10" height="300px" width="300px"  alt="applegadgetsbd">
+    </a>
+
+    <a href="https://www.mobiledokan.co/" class="box">
+      <img src="https://play-lh.googleusercontent.com/mbUJrH7MFHtld4hqzg-MoaHjp9DsDyeqgvuKm2n2IW9n5HRdGKsNUtpLD7tskMYHYg" height="300px" width="300px" alt="mobiledokan">
+    </a>
+
+    <a href="https://www.mobiledokan.com/" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3zZC-0uYUCXC-TT_22qXfgNR2c6dIkkLN0PFkibPir7aAE0PUTfvdgMKC&s=10" height="300px" width="300px" alt="dokanmobile">
+    </a>
+
+    <a href="https://fabrilife.com/shop?gad_source=1&gclid=CjwKCAiA65m7BhAwEiwAAgu4JOrFyQVTYgQYeZ9NC1EEIv2u6qPSRHe_L2OOmko37zJ35gMrN3FaxxoChUIQAvD_BwE" height="300px" width="300px" class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-2NG4ZZvvOrGDyJ1LqLOmzPK4DKmD6lQ4A&s" alt="fabrilife">
+    </a>
+    <!-- তুমি চাইলে নিচেরগুলো একইভাবে যোগ করতে পারো -->
+  </div>
+
+  <footer>
+    © 2025 EINBRAINTON | All Rights Reserved
+  </footer>
+
+</body>
+</html>
